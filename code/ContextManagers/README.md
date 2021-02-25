@@ -17,3 +17,8 @@ On a lot of programming books where is shown how to work with files, at
 least it is always mentioned that once you have finished working with a file, 
 or any kind of network connection, including connection to databases, 
 you have to close it in order to avoid resource leaks.
+
+Refer below programs 
+* FileHandler.py
+* contextManagerGenerator.py
+* mixinClassContextManager.py
