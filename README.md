@@ -31,8 +31,10 @@ An Interpreted language executes its statements line by line
  </b></details>
 
 <details>
-<summary> What is pep 8?</summary><br><b>
+<summary> What is pep 8? PyPI ? PIP </summary><br><b>
 PEP stands for Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.
+PIP - package installer for python
+PyPI - python package idex
 
 </b></details>
 
@@ -87,3 +89,15 @@ An anonymous function is known as a lambda function. This function can have any 
     print(a(5, 6))
  
  </b></details>
+ 
+<details>
+<summary>What is GIL?</summary><br><b>
+   GIL or the Global Interpreter Lock is a mutex, used to limit access to Python objects. It synchronizes threads and prevents them from running at the same time.
+</b></details>
+
+<details>
+<summary>What is the use of %s?</summary><br><b>
+   %s is a format specifier which transmutes any value into a string.
+	 str="raghu"
+   print('hello %s' % str )   # hello raghu
+</b></details>
