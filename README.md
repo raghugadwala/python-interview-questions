@@ -98,6 +98,7 @@ An anonymous function is known as a lambda function. This function can have any 
 <details>
 <summary>What is the use of %s?</summary><br><b>
    %s is a format specifier which transmutes any value into a string.
+	 
 	 str="raghu"
-   print('hello %s' % str )   # hello raghu
+         print('hello %s' % str )   # hello raghu
 </b></details>
