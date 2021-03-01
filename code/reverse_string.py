@@ -15,4 +15,13 @@ def reversestr2(str):
     print(string)
 reversestr2(str)
 
+# Appproach 3
 
+def reverse3(str):
+    list=[None] * len(str)
+    index= len(str) - 1
+    for char in str:
+        list[index] = char
+        index -= 1
+    return ''.join(list)
+reversestr3(str)
