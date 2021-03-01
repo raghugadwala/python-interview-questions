@@ -102,3 +102,18 @@ An anonymous function is known as a lambda function. This function can have any 
 	 str="raghu"
          print('hello %s' % str )   # hello raghu
 </b></details>
+
+<details>
+<summary>Explain how the python GC (Gargabe collection) works?</summary><br><b>
+  GC will do the Refcounting, GC keeps track of how many variables are referencing a memory location.
+  If drop to 0, It keeps of that memory location.
+	
+	Viewing reference counts in Python:
+	
+	>>> import sys
+	>>> a = 'my-string'
+	>>> sys.getrefcount(a)
+	2
+	
+	Notice that there are two references to our variable a. One is from creating the variable. The second is when we pass the variable a to the sys.getrefcount() function.
+</b></details>
